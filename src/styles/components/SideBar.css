@@ -1,0 +1,41 @@
+
+
+#sidebar
+{
+    flex: 1 1 0;
+    display: flex;
+    padding: 3rem 0;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    background-color: #111 ;
+    
+}
+img 
+{
+    top: -3rem;
+    max-width: 70%;
+    position: absolute;
+    border-radius:  50%;
+    height: 200px;
+    width: 200px;
+}
+
+.btn
+{
+    text-decoration: none;
+    padding: 1rem 1.3rem;
+    color: #FFF;
+    border-radius: 3rem;
+    background: linear-gradient(90deg, rgba(250,82,82,1) 0%, rgba(21,36,118,1) 100%);
+}
+.title
+{
+    color: #a6a6a6;
+    margin-top: 10rem;
+    border-radius: 5px;
+    padding: .8rem 1.2rem;
+    background-color: #333;
+}

@@ -1,0 +1,55 @@
+#information
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    width: 80%;
+    border-radius: 5px;
+}
+.info-card
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding: .8rem;
+    margin-bottom: .8rem;
+    border-bottom: 1px solid #444;
+    width: 100%;
+}
+h3
+{
+    color: #a6a6a6;
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+p
+{
+    color: #FFF;
+    font-weight: 700;
+}
+.icon
+{
+    background-color: #111;
+    padding: .4rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+#phone-icon
+{
+    color: #e93b81;
+}
+#email-icon
+{
+    color: #6ab5b9;
+}
+#pin-icon
+{
+    color: #c17ceb;
+}
